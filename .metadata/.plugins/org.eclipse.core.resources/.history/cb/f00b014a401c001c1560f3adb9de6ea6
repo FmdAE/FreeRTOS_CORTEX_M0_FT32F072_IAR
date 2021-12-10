@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <packages/>
+  <device Dclock="72000000" Dcore="Cortex-M0" DcoreVersion="r0p0" Dendian="Little-endian" Dfamily="FT32F0 Series" Dfpu="NO_FPU" Dmpu="NO_MPU" Dname="FT32F072R8" DsubFamily="FT32F072" Dvariant="FT32F072R8ATx" Dvendor="FMD:169" info="ARM , 8 KB RAM, 64 KB ROM" url="https://www.keil.com/dd2/fmd/ft32f072r8atx">
+    <package info="FremontMicro FT32F0 Series Device Support and Examples" name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+  </device>
+  <toolchain Tcompiler="IAR" Toutput="exe"/>
+  <components/>
+  <apis/>
+</configuration>

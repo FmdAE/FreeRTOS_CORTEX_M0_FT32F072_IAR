@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+
+  <packages/>
+
+  <device Dclock="72000000" Dcore="Cortex-M0" DcoreVersion="r0p0" Dendian="Little-endian" Dfamily="FT32F0 Series" Dfpu="NO_FPU" Dmpu="NO_MPU" Dname="FT32F072R8" DsubFamily="FT32F072" Dvariant="FT32F072R8ATx" Dvendor="FMD:169" info="ARM , 8 KB RAM, 64 KB ROM" url="https://www.keil.com/dd2/fmd/ft32f072r8atx">
+
+    <package info="FremontMicro FT32F0 Series Device Support and Examples" name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+  </device>
+
+  <toolchain Tcompiler="IAR" Toutput="exe"/>
+
+  <components>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="ADC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_adc.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="COMMON" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file attr="config" category="header" deviceDependent="1" name="Drivers/FT32F0xx_Driver/templates/Inc/ft32f0xx_conf.h" version="1.0.0"/>
+
+      <file attr="template" category="header" deviceDependent="1" name="Drivers/FT32F0xx_Driver/templates/Inc/ft32f0xx_it.h" select="Exception Handlers and Peripheral IRQ"/>
+
+      <file attr="template" category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/templates/Src/ft32f0xx_it.c" select="Exception Handlers and Peripheral IRQ"/>
+
+      <file attr="template" category="header" deviceDependent="1" name="Drivers/FT32F0xx_Driver/templates/Inc/main.h" select="'main' module"/>
+
+      <file attr="template" category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/templates/Src/main.c" select="'main' module"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="COMP" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_comp.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="CRC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_crc.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="CRS" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_crs.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="DAC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_dac.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="DEBUG" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_debug.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="DMA" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_dma.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="EXTI" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_exti.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="FLASH" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_flash.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="GPIO" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_gpio.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="I2C" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_i2c.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="IWDG" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_iwdg.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="MISC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_misc.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="OPA" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_opa.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="PWR" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_pwr.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="RCC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_rcc.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="RTC" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_rtc.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="SPI" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_spi.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="SYSCFG" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_syscfg.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="TIM" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_tim.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="USART" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_usart.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="FT32Driver" Csub="WWDG" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="source" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Src/FT32f0xx_wwdg.c"/>
+
+    </component>
+
+    <component Cbundle="StdDriverOne" Cbundleversion="1.0.1" Cclass="Device" Cgroup="Startup" Cvendor="FMD" Cversion="1.0.1" deviceDependent="1">
+
+      <package name="FT32F0xx_DFP" url="https://www.fremontmicro.com/upload/tools/pack/" vendor="FMD" version="1.0.1"/>
+
+      <file category="include" deviceDependent="1" name="Drivers/FT32F0xx_Driver/Inc/"/>
+
+      <file category="include" deviceDependent="1" name="Drivers/CMSIS/FT32F0xx/Include/"/>
+
+      <file category="header" deviceDependent="1" name="Drivers/CMSIS/FT32F0xx/Include/ft32f0xx.h"/>
+
+      <file attr="config" category="source" deviceDependent="1" name="Drivers/CMSIS/FT32F0xx/source/system_ft32f0xx.c" version="1.0.0"/>
+
+    </component>
+
+  </components>
+
+  <apis/>
+
+</configuration>
+

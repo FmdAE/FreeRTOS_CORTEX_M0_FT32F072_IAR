@@ -1,0 +1,843 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  27/Sep/2021  16:40:45
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Exe\FreeRTOS_Proj.out
+#    Map file     =
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\List\FreeRTOS_Proj.map
+#    Command line =
+#        -f
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\List\FreeRTOS_Proj.map.rsp
+#        (D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Driver\board.o
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.ADC_1.0.1\FT32f0xx_adc.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.COMP_1.0.1\FT32f0xx_comp.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.CRC_1.0.1\FT32f0xx_crc.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.CRS_1.0.1\FT32f0xx_crs.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.DAC_1.0.1\FT32f0xx_dac.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.DEBUG_1.0.1\FT32f0xx_debug.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.DMA_1.0.1\FT32f0xx_dma.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.EXTI_1.0.1\FT32f0xx_exti.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.FLASH_1.0.1\FT32f0xx_flash.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.GPIO_1.0.1\FT32f0xx_gpio.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.I2C_1.0.1\FT32f0xx_i2c.o"
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\User\ft32f0xx_it.o
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.IWDG_1.0.1\FT32f0xx_iwdg.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.MISC_1.0.1\FT32f0xx_misc.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.OPA_1.0.1\FT32f0xx_opa.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.PWR_1.0.1\FT32f0xx_pwr.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.RCC_1.0.1\FT32f0xx_rcc.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.RTC_1.0.1\FT32f0xx_rtc.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.SPI_1.0.1\FT32f0xx_spi.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.SYSCFG_1.0.1\FT32f0xx_syscfg.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.TIM_1.0.1\FT32f0xx_tim.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.USART_1.0.1\FT32f0xx_usart.o"
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.FT32Driver.WWDG_1.0.1\FT32f0xx_wwdg.o"
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\portable\heap_4.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks\HighProTask.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks\IdleTask.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks\InitTask.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\list.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks\LowProTask.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\User\main.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Driver\Peripheral.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\portable\port.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\portable\portasm.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\queue.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Startup\startup_FT32f072.o
+#        "D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD
+#        StdDriverOne _Device.Startup_1.0.1\system_ft32f0xx.o"
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks\TaskManager.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\tasks.o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\timers.o
+#        --no_out_extension -o
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Exe\FreeRTOS_Proj.out
+#        --map
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\List\FreeRTOS_Proj.map
+#        --config
+#        C:/Users/Administrator/IAR-CMSIS-Packs/FMD/FT32F0xx_DFP/1.0.1/\.iar\config\linker\FT32F072R8.icf
+#        --semihosting
+#        D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Source\Tk_Lib\TouchPro.a
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x0] |
+                [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P3":  place in [from 0x0 to 0x0] |
+                [from 0x2000'0000 to 0x2000'1fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P4"
+  rw section application_specific_rw  in "P2|P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code   0x800'0000    0xc0  startup_FT32f072.o [27]
+                             - 0x800'00c0    0xc0
+
+"P1":                                      0x3dc8
+  .text              ro code   0x800'00c0   0xee0  TK_LIB.o [30]
+  .text              ro code   0x800'0fa0   0x770  touch.o [30]
+  .text              ro code   0x800'1710    0xe0  I32DivModFast.o [32]
+  .text              ro code   0x800'17f0     0x2  IntDivZer.o [32]
+  .text              ro code   0x800'17f2     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'17f4   0x61c  tasks.o [25]
+  .text              ro code   0x800'1e10   0x194  heap_4.o [26]
+  .text              ro code   0x800'1fa4    0xf0  port.o [26]
+  .text              ro code   0x800'2094    0x96  list.o [25]
+  .text              ro code   0x800'212a     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'212c    0x10  ABImemset_small.o [32]
+  .text              ro code   0x800'213c    0x8c  TaskManager.o [28]
+  CODE               ro code   0x800'21c8    0x7c  portasm.o [26]
+  .text              ro code   0x800'2244   0x478  queue.o [25]
+  .text              ro code   0x800'26bc    0x4e  ABImemcpy.o [32]
+  .text              ro code   0x800'270a     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'270c   0x584  xprintfsmall_nomb.o [31]
+  .text              ro code   0x800'2c90    0x12  strchr.o [32]
+  .text              ro code   0x800'2ca2     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'2ca4    0x48  xfail_s.o [31]
+  .text              ro code   0x800'2cec     0xe  strlen.o [32]
+  .text              ro code   0x800'2cfa     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'2cfc    0x16  memchr.o [32]
+  .text              ro code   0x800'2d12     0xa  abort.o [31]
+  .text              ro code   0x800'2d1c    0x14  exit.o [33]
+  .text              ro code   0x800'2d30   0x3e4  Peripheral.o [24]
+  .text              ro code   0x800'3114   0x134  FT32f0xx_rcc.o [16]
+  .text              ro code   0x800'3248    0xb6  FT32f0xx_gpio.o [10]
+  .text              ro code   0x800'32fe     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3300   0x12a  FT32f0xx_usart.o [21]
+  .text              ro code   0x800'342a     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'342c    0x54  FT32f0xx_misc.o [13]
+  .text              ro code   0x800'3480    0x70  FT32f0xx_dma.o [7]
+  .text              ro code   0x800'34f0    0xdc  FT32f0xx_adc.o [1]
+  .text              ro code   0x800'35cc    0x28  printf.o [31]
+  .text              ro code   0x800'35f4   0x15a  FT32f0xx_tim.o [20]
+  .text              ro code   0x800'374e     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3750   0x11c  board.o [24]
+  .text              ro code   0x800'386c    0xe8  system_ft32f0xx.o [23]
+  .text              ro code   0x800'3954    0xb4  ft32f0xx_it.o [29]
+  .text              ro code   0x800'3a08    0xb0  HighProTask.o [28]
+  .text              ro code   0x800'3ab8    0x88  InitTask.o [28]
+  .text              ro code   0x800'3b40    0x74  LowProTask.o [28]
+  .text              ro code   0x800'3bb4    0x10  FT32f0xx_iwdg.o [12]
+  .rodata            const     0x800'3bc4    0x60  Peripheral.o [24]
+  .text              ro code   0x800'3c24    0x3c  startup_FT32f072.o [27]
+  .text              ro code   0x800'3c60    0x3c  zero_init3.o [32]
+  .text              ro code   0x800'3c9c    0x30  copy_init3.o [32]
+  .text              ro code   0x800'3ccc    0x28  data_init.o [32]
+  .iar.init_table    const     0x800'3cf4    0x24  - Linker created -
+  .text              ro code   0x800'3d18    0x1e  cmain.o [32]
+  .text              ro code   0x800'3d36     0x4  low_level_init.o [31]
+  .text              ro code   0x800'3d3a     0xe  main.o [29]
+  .text              ro code   0x800'3d48     0x8  exit.o [31]
+  .text              ro code   0x800'3d50     0xa  cexit.o [32]
+  .text              ro code   0x800'3d5a     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3d5c    0x1c  cstartup_M.o [32]
+  .text              ro code   0x800'3d78    0x16  xprout.o [31]
+  .text              ro code   0x800'3d8e     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3d90    0x10  putchar.o [31]
+  .text              ro code   0x800'3da0     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3da2     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3da4     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3da6     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3da8     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3daa     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dac     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dae     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3db0     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3db2     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3db4     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3db6     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3db8     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dba     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dbc     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dbe     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dc0     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dc2     0x2  startup_FT32f072.o [27]
+  .text              ro code   0x800'3dc4     0x2  startup_FT32f072.o [27]
+  .rodata            const     0x800'3dc6     0x0  zero_init3.o [32]
+  .rodata            const     0x800'3dc6     0x0  copy_init3.o [32]
+  Initializer bytes  const     0x800'3dc8    0xc0  <for P3 s0>
+                             - 0x800'3e88  0x3dc8
+
+"P3", part 1 of 3:                           0xc0
+  P3 s0                       0x2000'0000    0xc0  <Init block>
+    .data            inited   0x2000'0000    0x4c  tasks.o [25]
+    .data            inited   0x2000'004c    0x48  xfiles.o [31]
+    .data            inited   0x2000'0094    0x14  system_ft32f0xx.o [23]
+    .data            inited   0x2000'00a8    0x10  FT32f0xx_rcc.o [16]
+    .data            inited   0x2000'00b8     0x4  port.o [26]
+    .data            inited   0x2000'00bc     0x2  board.o [24]
+    .data            inited   0x2000'00be     0x1  TK_LIB.o [30]
+                            - 0x2000'00c0    0xc0
+
+"P3", part 2 of 3:                          0xeec
+  .bss               zero     0x2000'00c0   0xc20  heap_4.o [26]
+  .bss               zero     0x2000'0ce0   0x120  TK_LIB.o [30]
+  .bss               zero     0x2000'0e00    0xa8  tasks.o [25]
+  .bss               zero     0x2000'0ea8    0x50  xfiles.o [31]
+  .bss               zero     0x2000'0ef8    0x30  TK_LIB.o [30]
+  .bss               zero     0x2000'0f28    0x28  Peripheral.o [24]
+  .bss               zero     0x2000'0f50    0x14  TK_LIB.o [30]
+  .bss               zero     0x2000'0f64     0x8  TK_LIB.o [30]
+  .bss               zero     0x2000'0f6c     0x8  TK_LIB.o [30]
+  .bss               zero     0x2000'0f74     0x4  HighProTask.o [28]
+  .bss               zero     0x2000'0f78     0x4  InitTask.o [28]
+  .bss               zero     0x2000'0f7c     0x4  LowProTask.o [28]
+  .bss               zero     0x2000'0f80     0x4  Peripheral.o [24]
+  .bss               zero     0x2000'0f84     0x4  Peripheral.o [24]
+  .bss               zero     0x2000'0f88     0x4  TaskManager.o [28]
+  .bss               zero     0x2000'0f8c     0x4  TK_LIB.o [30]
+  .bss               zero     0x2000'0f90     0x4  xfail_s.o [31]
+  .bss               zero     0x2000'0f94     0x2  TK_LIB.o [30]
+  .bss               zero     0x2000'0f96     0x2  TK_LIB.o [30]
+  .bss               zero     0x2000'0f98     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f99     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9a     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9b     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9c     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9d     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9e     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0f9f     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa0     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa1     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa2     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa3     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa4     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa5     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa6     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa7     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa8     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0fa9     0x1  TK_LIB.o [30]
+  .bss               zero     0x2000'0faa     0x1  TK_LIB.o [30]
+                            - 0x2000'0fab   0xeeb
+
+"P3", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0fb0   0x400  <Block>
+    CSTACK           uninit   0x2000'0fb0   0x400  <Block tail>
+                            - 0x2000'13b0   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+          0x0          0x0     0x1
+   0x800'3e88   0x800'ffff  0xc178
+  0x2000'0fac  0x2000'0faf     0x4
+  0x2000'13b0  0x2000'1fff   0xc50
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xeeb:
+          0x2000'00c0  0xeeb
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc0 (100% of destination):
+           0x800'3dc8   0xc0
+    1 destination range, total size 0xbf:
+          0x2000'0000   0xbf
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.ADC_1.0.1: [1]
+    FT32f0xx_adc.o           220
+    ----------------------------------------------
+    Total:                   220
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.COMP_1.0.1: [2]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.CRC_1.0.1: [3]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.CRS_1.0.1: [4]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DAC_1.0.1: [5]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DEBUG_1.0.1: [6]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DMA_1.0.1: [7]
+    FT32f0xx_dma.o           112
+    ----------------------------------------------
+    Total:                   112
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.EXTI_1.0.1: [8]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.FLASH_1.0.1: [9]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.GPIO_1.0.1: [10]
+    FT32f0xx_gpio.o          182
+    ----------------------------------------------
+    Total:                   182
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.I2C_1.0.1: [11]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.IWDG_1.0.1: [12]
+    FT32f0xx_iwdg.o           16
+    ----------------------------------------------
+    Total:                    16
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.MISC_1.0.1: [13]
+    FT32f0xx_misc.o           84
+    ----------------------------------------------
+    Total:                    84
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.OPA_1.0.1: [14]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.PWR_1.0.1: [15]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.RCC_1.0.1: [16]
+    FT32f0xx_rcc.o           308       16       16
+    ----------------------------------------------
+    Total:                   308       16       16
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.RTC_1.0.1: [17]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.SPI_1.0.1: [18]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.SYSCFG_1.0.1: [19]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.TIM_1.0.1: [20]
+    FT32f0xx_tim.o           346
+    ----------------------------------------------
+    Total:                   346
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.USART_1.0.1: [21]
+    FT32f0xx_usart.o         298
+    ----------------------------------------------
+    Total:                   298
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.WWDG_1.0.1: [22]
+    ----------------------------------------------
+    Total:
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.Startup_1.0.1: [23]
+    system_ft32f0xx.o        232       20       20
+    ----------------------------------------------
+    Total:                   232       20       20
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Driver: [24]
+    Peripheral.o             996       96       48
+    board.o                  284        2        2
+    ----------------------------------------------
+    Total:                 1'280       98       50
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS: [25]
+    list.o                   150
+    queue.o                1'144
+    tasks.o                1'564       76      244
+    ----------------------------------------------
+    Total:                 2'858       76      244
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\portable: [26]
+    heap_4.o                 404             3'104
+    port.o                   240        4        4
+    portasm.o                124
+    ----------------------------------------------
+    Total:                   768        4    3'108
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Startup: [27]
+    startup_FT32f072.o       310
+    ----------------------------------------------
+    Total:                   310
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks: [28]
+    HighProTask.o            176                 4
+    InitTask.o               136                 4
+    LowProTask.o             116                 4
+    TaskManager.o            140                 4
+    ----------------------------------------------
+    Total:                   568                16
+
+D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\User: [29]
+    ft32f0xx_it.o            180
+    main.o                    14
+    ----------------------------------------------
+    Total:                   194
+
+TouchPro.a: [30]
+    TK_LIB.o               3'808        1      400
+    touch.o                1'904
+    ----------------------------------------------
+    Total:                 5'712        1      400
+
+dl6M_tlf.a: [31]
+    abort.o                   10
+    exit.o                     8
+    low_level_init.o           4
+    printf.o                  40
+    putchar.o                 16
+    xfail_s.o                 72                 4
+    xfiles.o                           72      152
+    xprintfsmall_nomb.o    1'412
+    xprout.o                  22
+    ----------------------------------------------
+    Total:                 1'584       72      156
+
+rt6M_tl.a: [32]
+    ABImemcpy.o               78
+    ABImemset_small.o         16
+    I32DivModFast.o          224
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              48
+    cstartup_M.o              28
+    data_init.o               40
+    memchr.o                  22
+    strchr.o                  18
+    strlen.o                  14
+    zero_init3.o              60
+    ----------------------------------------------
+    Total:                   590
+
+shb_l.a: [33]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     39    1'024
+--------------------------------------------------
+    Grand Total:          15'682      326    5'034
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'3cf4          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'3d18          --   Gb  - Linker created -
+?main                    0x800'3d19         Code  Gb  cmain.o [32]
+ADC1ConvertedValue      0x2000'0f84    0x2  Data  Gb  Peripheral.o [24]
+ADC1ConvertedVoltage    0x2000'0f86    0x2  Data  Gb  Peripheral.o [24]
+ADC_ChannelConfig        0x800'3555    0xa  Code  Gb  FT32f0xx_adc.o [1]
+ADC_Cmd                  0x800'3543   0x12  Code  Gb  FT32f0xx_adc.o [1]
+ADC_Config               0x800'2e0f   0x80  Code  Gb  Peripheral.o [24]
+ADC_DeInit               0x800'34f1   0x1e  Code  Gb  FT32f0xx_adc.o [1]
+ADC_GetCalibrationFactor
+                         0x800'355f   0x28  Code  Gb  FT32f0xx_adc.o [1]
+ADC_GetConversionValue   0x800'3591    0x6  Code  Gb  FT32f0xx_adc.o [1]
+ADC_GetFlagStatus        0x800'3597   0x1a  Code  Gb  FT32f0xx_adc.o [1]
+ADC_Init                 0x800'350f   0x24  Code  Gb  FT32f0xx_adc.o [1]
+ADC_Measure              0x800'2e91   0x76  Code  Gb  Peripheral.o [24]
+ADC_StartOfConversion    0x800'3587    0xa  Code  Gb  FT32f0xx_adc.o [1]
+ADC_StructInit           0x800'3533   0x10  Code  Gb  FT32f0xx_adc.o [1]
+ADC_VrefselConfig        0x800'35b1    0xc  Code  Gb  FT32f0xx_adc.o [1]
+AHBPrescTable           0x2000'0094   0x10  Data  Gb  system_ft32f0xx.o [23]
+APBAHBPrescTable        0x2000'00a8   0x10  Data  Lc  FT32f0xx_rcc.o [16]
+BASE_YS                 0x2000'0f96    0x2  Data  Gb  TK_LIB.o [30]
+COMP1_DAC1_Init          0x800'118d   0x2c  Code  Gb  touch.o [30]
+COMP1_DAC1_Touch1        0x800'11c1    0x8  Code  Gb  touch.o [30]
+COMP1_DAC1_Touch2        0x800'11cd    0x8  Code  Gb  touch.o [30]
+COMP1_DAC1_Touch3        0x800'11d5    0x8  Code  Gb  touch.o [30]
+CSTACK$$Base            0x2000'0fb0          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'13b0          --   Gb  - Linker created -
+Channel1Pulse           0x2000'0f80    0x2  Data  Gb  Peripheral.o [24]
+ChargeDataBuff          0x2000'0f50   0x14  Data  Gb  TK_LIB.o [30]
+CreateHighProTask        0x800'3a09   0x26  Code  Gb  HighProTask.o [28]
+CreateInitTask           0x800'3ab9   0x1a  Code  Gb  InitTask.o [28]
+CreateLowProTask         0x800'3b41   0x26  Code  Gb  LowProTask.o [28]
+DMA_ClearFlag            0x800'34d5    0x2  Code  Gb  FT32f0xx_dma.o [7]
+DMA_Cmd                  0x800'34b7   0x14  Code  Gb  FT32f0xx_dma.o [7]
+DMA_GetCurrDataCounter   0x800'34cf    0x6  Code  Gb  FT32f0xx_dma.o [7]
+DMA_Init                 0x800'3481   0x36  Code  Gb  FT32f0xx_dma.o [7]
+DMA_SetCurrDataCounter   0x800'34cb    0x4  Code  Gb  FT32f0xx_dma.o [7]
+DelayuS                  0x800'16f5   0x1c  Code  Gb  touch.o [30]
+Downcount               0x2000'0fa2    0x1  Data  Gb  TK_LIB.o [30]
+Equalcount              0x2000'0fa3    0x1  Data  Gb  TK_LIB.o [30]
+GPIO_Init                0x800'3249   0x6a  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_PinAFConfig         0x800'32dd   0x22  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_ReadInputDataBit    0x800'32b3    0x8  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_ReadOutputDataBit   0x800'32bb    0x6  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_ResetBits           0x800'32cd    0x4  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_SetBits             0x800'32c9    0x4  Code  Gb  FT32f0xx_gpio.o [10]
+GPIO_WriteBit            0x800'32d1    0xc  Code  Gb  FT32f0xx_gpio.o [10]
+Get_Frequ                0x800'0143   0x26  Code  Gb  TK_LIB.o [30]
+HardFault_Handler        0x800'3957    0x2  Code  Gb  ft32f0xx_it.o [29]
+HighProTask              0x800'3a31   0x66  Code  Lc  HighProTask.o [28]
+INT_COUNT               0x2000'0fa5    0x1  Data  Gb  TK_LIB.o [30]
+IO_Init                  0x800'0f01   0x6c  Code  Gb  TK_LIB.o [30]
+IWDG_ReloadCounter       0x800'3bb5    0x8  Code  Gb  FT32f0xx_iwdg.o [12]
+InitTask                 0x800'3ad3   0x58  Code  Gb  InitTask.o [28]
+JudgeGroupCharge         0x800'1431  0x2bc  Code  Gb  touch.o [30]
+KEY_Scan                 0x800'3099   0x3c  Code  Gb  Peripheral.o [24]
+Key_Init                 0x800'37b3   0x38  Code  Gb  board.o [24]
+Key_Pro                  0x800'3005   0x64  Code  Gb  Peripheral.o [24]
+Key_Scan                 0x800'37eb   0x74  Code  Gb  board.o [24]
+Key_Scan::key_time      0x2000'00bd    0x1  Data  Lc  board.o [24]
+Key_Scan::key_up        0x2000'00bc    0x1  Data  Lc  board.o [24]
+LED_Flash                0x800'2fed    0xc  Code  Gb  Peripheral.o [24]
+LED_Toggle               0x800'3799   0x1a  Code  Gb  board.o [24]
+Led_Init                 0x800'3751   0x48  Code  Gb  board.o [24]
+LowProTask               0x800'3b67   0x3a  Code  Lc  LowProTask.o [28]
+MAX1_TMP                0x2000'0f9e    0x1  Data  Gb  TK_LIB.o [30]
+MAX_TMP                 0x2000'0f9d    0x1  Data  Gb  TK_LIB.o [30]
+MIN1                    0x2000'0fa6    0x1  Data  Gb  TK_LIB.o [30]
+NMI_Handler              0x800'3955    0x2  Code  Gb  ft32f0xx_it.o [29]
+NVIC_Init                0x800'342d   0x46  Code  Gb  FT32f0xx_misc.o [13]
+PendSV_Handler           0x800'21cf         Code  Gb  portasm.o [26]
+RCC_AHBPeriphClockCmd    0x800'31ed   0x14  Code  Gb  FT32f0xx_rcc.o [16]
+RCC_APB2PeriphClockCmd   0x800'3201   0x14  Code  Gb  FT32f0xx_rcc.o [16]
+RCC_APB2PeriphResetCmd   0x800'3219   0x14  Code  Gb  FT32f0xx_rcc.o [16]
+RCC_GetClocksFreq        0x800'3115   0xd8  Code  Gb  FT32f0xx_rcc.o [16]
+Region$$Table$$Base      0x800'3cf4          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'3d18          --   Gb  - Linker created -
+SVC_Handler              0x800'220d         Code  Gb  portasm.o [26]
+SendMessage              0x800'213d   0x14  Code  Gb  TaskManager.o [28]
+SendMessageFromISR       0x800'2161   0x10  Code  Gb  TaskManager.o [28]
+SendShortMessageFromISR
+                         0x800'2151   0x10  Code  Gb  TaskManager.o [28]
+SignalNoiseRatio        0x2000'00be    0x1  Data  Gb  TK_LIB.o [30]
+Sub2data                 0x800'0169   0x18  Code  Gb  TK_LIB.o [30]
+SysTick_Handler          0x800'203d   0x20  Code  Gb  port.o [26]
+SystemCoreClock         0x2000'00a4    0x4  Data  Gb  system_ft32f0xx.o [23]
+SystemInit               0x800'386d   0xc6  Code  Gb  system_ft32f0xx.o [23]
+TIM16_IRQHandler         0x800'39c9   0x2a  Code  Gb  ft32f0xx_it.o [29]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                         0x800'39af   0x1a  Code  Gb  ft32f0xx_it.o [29]
+TIM1_CH1_Init            0x800'0fe1   0x54  Code  Gb  touch.o [30]
+TIM1_CH2_Init            0x800'1035   0x56  Code  Gb  touch.o [30]
+TIM1_CH3_Init            0x800'108b   0x56  Code  Gb  touch.o [30]
+TIM1_Init                0x800'0fa1   0x40  Code  Gb  touch.o [30]
+TIM1_OFF                 0x800'10f5    0xe  Code  Gb  touch.o [30]
+TIM1_ON                  0x800'10e1   0x14  Code  Gb  touch.o [30]
+TIM3_Init                0x800'1103   0x38  Code  Gb  touch.o [30]
+TIM3_OFF                 0x800'1169    0xe  Code  Gb  touch.o [30]
+TIM3_ON                  0x800'1141   0x20  Code  Gb  touch.o [30]
+TIM_ClearITPendingBit    0x800'3749    0x6  Code  Gb  FT32f0xx_tim.o [20]
+TIM_Cmd                  0x800'364d   0x14  Code  Gb  FT32f0xx_tim.o [20]
+TIM_CtrlPWMOutputs       0x800'3661   0x22  Code  Gb  FT32f0xx_tim.o [20]
+TIM_GetITStatus          0x800'3733   0x16  Code  Gb  FT32f0xx_tim.o [20]
+TIM_ITConfig             0x800'3721   0x12  Code  Gb  FT32f0xx_tim.o [20]
+TIM_OC1Init              0x800'3683   0x64  Code  Gb  FT32f0xx_tim.o [20]
+TIM_PWM_Init             0x800'2f07   0xe6  Code  Gb  Peripheral.o [24]
+TIM_SetCompare1          0x800'3709    0x4  Code  Gb  FT32f0xx_tim.o [20]
+TIM_TimeBaseInit         0x800'35f5   0x58  Code  Gb  FT32f0xx_tim.o [20]
+TK_AP                   0x2000'0fa0    0x1  Data  Gb  TK_LIB.o [30]
+TK_DATA                 0x2000'0ef8   0x30  Data  Gb  TK_LIB.o [30]
+TK_MAX_NUM              0x2000'0f9f    0x1  Data  Gb  TK_LIB.o [30]
+TK_OK_single            0x2000'0f9b    0x1  Data  Gb  TK_LIB.o [30]
+TK_OK_strongest         0x2000'0f9c    0x1  Data  Gb  TK_LIB.o [30]
+TK_OUT_SINGLE           0x2000'0f8c    0x4  Data  Gb  TK_LIB.o [30]
+TK_OUT_strongest        0x2000'0f9a    0x1  Data  Gb  TK_LIB.o [30]
+TK_STRUCT               0x2000'0ce0  0x120  Data  Gb  TK_LIB.o [30]
+TK_TIMER                0x2000'0f99    0x1  Data  Gb  TK_LIB.o [30]
+TOUCH_READ_OK           0x2000'0f98    0x1  Data  Gb  TK_LIB.o [30]
+TSC_DataProcessing       0x800'0ae9  0x3fa  Code  Gb  TK_LIB.o [30]
+TSC_EnableKey11          0x800'00c1    0x6  Code  Gb  TK_LIB.o [30]
+TSC_EnableKey12          0x800'00c7    0x6  Code  Gb  TK_LIB.o [30]
+TSC_GetStrongest         0x800'0ee3    0x6  Code  Gb  TK_LIB.o [30]
+TSC_Init                 0x800'00cd   0x76  Code  Gb  TK_LIB.o [30]
+TSC_Start                0x800'02bd  0x7e8  Code  Gb  TK_LIB.o [30]
+TimerPeriod             0x2000'0f82    0x2  Data  Gb  Peripheral.o [24]
+Touch1_Charge            0x800'122d   0x82  Code  Gb  touch.o [30]
+Touch2_Charge            0x800'12bd   0x8a  Code  Gb  touch.o [30]
+Touch3_Charge            0x800'1361   0x8a  Code  Gb  touch.o [30]
+Touch_Init               0x800'11e1   0x4c  Code  Gb  touch.o [30]
+USART1_IRQHandler        0x800'3959   0x56  Code  Gb  ft32f0xx_it.o [29]
+USART_ClearFlag          0x800'3427    0x4  Code  Gb  FT32f0xx_usart.o [21]
+USART_Cmd                0x800'3391   0x16  Code  Gb  FT32f0xx_usart.o [21]
+USART_DMACmd             0x800'33b5    0xe  Code  Gb  FT32f0xx_usart.o [21]
+USART_DMAReceptionErrorConfig
+                         0x800'33c3    0x4  Code  Gb  FT32f0xx_usart.o [21]
+USART_GetFlagStatus      0x800'3419    0xe  Code  Gb  FT32f0xx_usart.o [21]
+USART_ITConfig           0x800'33e1   0x2a  Code  Gb  FT32f0xx_usart.o [21]
+USART_Init               0x800'3301   0x90  Code  Gb  FT32f0xx_usart.o [21]
+USART_SendData           0x800'33a7    0x8  Code  Gb  FT32f0xx_usart.o [21]
+Upcount                 0x2000'0fa1    0x1  Data  Gb  TK_LIB.o [30]
+Usart_Init               0x800'2d31   0xde  Code  Gb  Peripheral.o [24]
+_LitobSmallNoMb          0x800'2b47   0xee  Code  Lc  xprintfsmall_nomb.o [31]
+_PrintfSmallNoMb         0x800'270d  0x40e  Code  Gb  xprintfsmall_nomb.o [31]
+_Prout                   0x800'3d79   0x16  Code  Gb  xprout.o [31]
+_PutcharSmallNoMb        0x800'2c39   0x22  Code  Lc  xprintfsmall_nomb.o [31]
+_PutcharsSmallNoMb       0x800'2c5b   0x36  Code  Lc  xprintfsmall_nomb.o [31]
+__aeabi_idiv             0x800'173d         Code  Gb  I32DivModFast.o [32]
+__aeabi_idiv0            0x800'17f1         Code  Gb  IntDivZer.o [32]
+__aeabi_idivmod          0x800'173d         Code  Gb  I32DivModFast.o [32]
+__aeabi_memcpy           0x800'26f1         Code  Gb  ABImemcpy.o [32]
+__aeabi_memcpy4          0x800'26bd         Code  Gb  ABImemcpy.o [32]
+__aeabi_memcpy8          0x800'26bd         Code  Gb  ABImemcpy.o [32]
+__aeabi_uidiv            0x800'1743         Code  Gb  I32DivModFast.o [32]
+__aeabi_uidivmod         0x800'1743         Code  Gb  I32DivModFast.o [32]
+__cmain                  0x800'3d19         Code  Gb  cmain.o [32]
+__exit                   0x800'2d1d   0x14  Code  Gb  exit.o [33]
+__iar_Fail_s             0x800'2ca5   0x22  Code  Gb  xfail_s.o [31]
+__iar_Memchr             0x800'2cfd         Code  Gb  memchr.o [32]
+__iar_Memcpy             0x800'26fd         Code  Gb  ABImemcpy.o [32]
+__iar_Stdout            0x2000'004c   0x48  Data  Gb  xfiles.o [31]
+__iar_Strchr             0x800'2c91         Code  Gb  strchr.o [32]
+__iar_copy_init3         0x800'3c9d   0x30  Code  Gb  copy_init3.o [32]
+__iar_data_init3         0x800'3ccd   0x28  Code  Gb  data_init.o [32]
+__iar_program_start      0x800'3d5d         Code  Gb  cstartup_M.o [32]
+__iar_small_Memset4_word
+                         0x800'2131         Code  Gb  ABImemset_small.o [32]
+__iar_small_Memset_word
+                         0x800'2131         Code  Gb  ABImemset_small.o [32]
+__iar_small_memclr       0x800'212d         Code  Gb  ABImemset_small.o [32]
+__iar_small_memclr4      0x800'212d         Code  Gb  ABImemset_small.o [32]
+__iar_small_memclr8      0x800'212d         Code  Gb  ABImemset_small.o [32]
+__iar_small_memset       0x800'2131         Code  Gb  ABImemset_small.o [32]
+__iar_small_memset4      0x800'2131         Code  Gb  ABImemset_small.o [32]
+__iar_small_memset8      0x800'2131         Code  Gb  ABImemset_small.o [32]
+__iar_zero_init3         0x800'3c61   0x3c  Code  Gb  zero_init3.o [32]
+__low_level_init         0x800'3d37    0x4  Code  Gb  low_level_init.o [31]
+__vector_table           0x800'0000         Data  Gb  startup_FT32f072.o [27]
+_call_main               0x800'3d25         Code  Gb  cmain.o [32]
+_exit                    0x800'3d51         Code  Gb  cexit.o [32]
+abort                    0x800'2d13    0xa  Code  Gb  abort.o [31]
+capturecount            0x2000'0fa4    0x1  Data  Gb  TK_LIB.o [30]
+exit                     0x800'3d49    0x8  Code  Gb  exit.o [31]
+findZJ2base              0x800'0181   0x7e  Code  Gb  TK_LIB.o [30]
+fputc                    0x800'3071   0x1e  Code  Gb  Peripheral.o [24]
+iData                   0x2000'0f94    0x2  Data  Gb  TK_LIB.o [30]
+main                     0x800'3d3b    0xe  Code  Gb  main.o [29]
+median                   0x800'01ff   0x6e  Code  Gb  TK_LIB.o [30]
+memchr                   0x800'2cfd         Code  Gb  memchr.o [32]
+obuf                    0x2000'0ea8   0x50  Data  Lc  xfiles.o [31]
+pInitTaskHandle         0x2000'0f78    0x4  Data  Lc  InitTask.o [28]
+printf                   0x800'35cd   0x28  Code  Gb  printf.o [31]
+prvAddCurrentTaskToDelayedList
+                         0x800'1dcd   0x3a  Code  Lc  tasks.o [25]
+prvCopyDataFromQueue     0x800'261b   0x26  Code  Lc  queue.o [25]
+prvCopyDataToQueue       0x800'25ab   0x70  Code  Lc  queue.o [25]
+prvDeleteTCB             0x800'1d37   0x12  Code  Lc  tasks.o [25]
+prvIdleTask              0x800'1cf9   0x3e  Code  Lc  tasks.o [25]
+prvInitialiseNewTask     0x800'18dd   0x96  Code  Lc  tasks.o [25]
+prvInsertBlockIntoFreeList
+                         0x800'1f5b   0x46  Code  Lc  heap_4.o [26]
+prvIsQueueEmpty          0x800'26ab   0x12  Code  Lc  queue.o [25]
+prvResetNextTaskUnblockTime
+                         0x800'1d49   0x1c  Code  Lc  tasks.o [25]
+prvTaskExitError         0x800'1fc1   0x14  Code  Lc  port.o [26]
+prvUnlockQueue           0x800'2641   0x6a  Code  Lc  queue.o [25]
+putchar                  0x800'3d91   0x10  Code  Gb  putchar.o [31]
+pvPortMalloc             0x800'1e11  0x108  Code  Gb  heap_4.o [26]
+pxCurrentTCB            0x2000'0e64    0x4  Data  Gb  tasks.o [25]
+pxDelayedTaskList       0x2000'0e68    0x4  Data  Lc  tasks.o [25]
+pxEnd                   0x2000'00c8    0x4  Data  Lc  heap_4.o [26]
+pxOverflowDelayedTaskList
+                        0x2000'0e6c    0x4  Data  Lc  tasks.o [25]
+pxPortInitialiseStack    0x800'1fa5   0x1a  Code  Gb  port.o [26]
+pxReadyTasksLists       0x2000'0e00   0x64  Data  Lc  tasks.o [25]
+sec_hand                0x2000'0f90    0x4  Data  Lc  xfail_s.o [31]
+strchr                   0x800'2c91         Code  Gb  strchr.o [32]
+strlen                   0x800'2ced         Code  Gb  strlen.o [32]
+ucFrequ1                0x2000'0fa7    0x1  Data  Gb  TK_LIB.o [30]
+ucFrequ2                0x2000'0fa8    0x1  Data  Gb  TK_LIB.o [30]
+ucFrequ3                0x2000'0fa9    0x1  Data  Gb  TK_LIB.o [30]
+ucFrequNum              0x2000'0faa    0x1  Data  Gb  TK_LIB.o [30]
+ucHeap                  0x2000'00e0  0xc00  Data  Lc  heap_4.o [26]
+ulSetInterruptMaskFromISR
+                         0x800'2231         Code  Gb  portasm.o [26]
+ulSystemTimeTickCount   0x2000'0f88    0x4  Data  Lc  TaskManager.o [28]
+usart_rx_buff           0x2000'0f28   0x28  Data  Gb  Peripheral.o [24]
+uxCriticalNesting       0x2000'00b8    0x4  Data  Lc  port.o [26]
+uxCurrentNumberOfTasks  0x2000'002c    0x4  Data  Lc  tasks.o [25]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'0028    0x4  Data  Lc  tasks.o [25]
+uxListRemove             0x800'2105   0x26  Code  Gb  list.o [25]
+uxSchedulerSuspended    0x2000'0e7c    0x4  Data  Lc  tasks.o [25]
+uxTaskNumber            0x2000'003c    0x4  Data  Lc  tasks.o [25]
+uxTopReadyPriority      0x2000'0e74    0x4  Data  Lc  tasks.o [25]
+uxTopUsedPriority       0x2000'0044    0x4  Data  Gb  tasks.o [25]
+vApplicationTickHook     0x800'2185   0x32  Code  Gb  TaskManager.o [28]
+vClearInterruptMaskFromISR
+                         0x800'2239         Code  Gb  portasm.o [26]
+vListInitialise          0x800'2095   0x1e  Code  Gb  list.o [25]
+vListInitialiseItem      0x800'20b3    0x6  Code  Gb  list.o [25]
+vListInsert              0x800'20d1   0x34  Code  Gb  list.o [25]
+vListInsertEnd           0x800'20b9   0x18  Code  Gb  list.o [25]
+vPortEnterCritical       0x800'200d    0xc  Code  Gb  port.o [26]
+vPortExitCritical        0x800'2025   0x18  Code  Gb  port.o [26]
+vPortFree                0x800'1f19   0x42  Code  Gb  heap_4.o [26]
+vPortSetupTimerInterrupt
+                         0x800'205d   0x1e  Code  Gb  port.o [26]
+vPortStartFirstTask      0x800'220f         Code  Gb  portasm.o [26]
+vPortYield               0x800'2001    0xa  Code  Gb  port.o [26]
+vSetMSP                  0x800'21c9         Code  Gb  portasm.o [26]
+vTaskDelete              0x800'1975   0x74  Code  Gb  tasks.o [25]
+vTaskInternalSetTimeOutState
+                         0x800'1c79    0xe  Code  Gb  tasks.o [25]
+vTaskMissedYield         0x800'1cf1    0x8  Code  Gb  tasks.o [25]
+vTaskPlaceOnEventList    0x800'1bf9   0x18  Code  Gb  tasks.o [25]
+vTaskStartScheduler      0x800'19f1   0x40  Code  Gb  tasks.o [25]
+vTaskSuspendAll          0x800'1a39    0xa  Code  Gb  tasks.o [25]
+vTaskSwitchContext       0x800'1ba9   0x48  Code  Gb  tasks.o [25]
+xBlockAllocatedBit      0x2000'00dc    0x4  Data  Lc  heap_4.o [26]
+xDelayedTaskList1       0x2000'0e80   0x14  Data  Lc  tasks.o [25]
+xDelayedTaskList2       0x2000'0e94   0x14  Data  Lc  tasks.o [25]
+xFreeBytesRemaining     0x2000'00cc    0x4  Data  Lc  heap_4.o [26]
+xHighProTaskQueue       0x2000'0f74    0x4  Data  Gb  HighProTask.o [28]
+xIdleTaskHandle         0x2000'0048    0x4  Data  Lc  tasks.o [25]
+xLowProTaskQueue        0x2000'0f7c    0x4  Data  Gb  LowProTask.o [28]
+xMinimumEverFreeBytesRemaining
+                        0x2000'00d0    0x4  Data  Lc  heap_4.o [26]
+xNextTaskUnblockTime    0x2000'0040    0x4  Data  Lc  tasks.o [25]
+xNumOfOverflows         0x2000'0038    0x4  Data  Lc  tasks.o [25]
+xNumberOfSuccessfulAllocations
+                        0x2000'00d4    0x4  Data  Lc  heap_4.o [26]
+xNumberOfSuccessfulFrees
+                        0x2000'00d8    0x4  Data  Lc  heap_4.o [26]
+xPendedTicks            0x2000'0034    0x4  Data  Lc  tasks.o [25]
+xPendingReadyList       0x2000'0000   0x14  Data  Lc  tasks.o [25]
+xPortStartScheduler      0x800'1fd5   0x2a  Code  Gb  port.o [26]
+xQueueGenericCreate      0x800'22b5   0x5a  Code  Gb  queue.o [25]
+xQueueGenericReset       0x800'2245   0x6e  Code  Gb  queue.o [25]
+xQueueGenericSend        0x800'2311  0x110  Code  Gb  queue.o [25]
+xQueueGenericSendFromISR
+                         0x800'2421   0x88  Code  Gb  queue.o [25]
+xQueueReceive            0x800'24b1   0xd4  Code  Gb  queue.o [25]
+xSchedulerRunning       0x2000'0030    0x4  Data  Lc  tasks.o [25]
+xStart                  0x2000'00c0    0x8  Data  Lc  heap_4.o [26]
+xTaskCheckForTimeOut     0x800'1c89   0x68  Code  Gb  tasks.o [25]
+xTaskCreate              0x800'17f5   0xe8  Code  Gb  tasks.o [25]
+xTaskIncrementTick       0x800'1ae5   0xc2  Code  Gb  tasks.o [25]
+xTaskPriorityDisinherit
+                         0x800'1d6d   0x58  Code  Gb  tasks.o [25]
+xTaskRemoveFromEventList
+                         0x800'1c21   0x56  Code  Gb  tasks.o [25]
+xTaskResumeAll           0x800'1a49   0x9c  Code  Gb  tasks.o [25]
+xTasksWaitingTermination
+                        0x2000'0014   0x14  Data  Lc  tasks.o [25]
+xTickCount              0x2000'0e70    0x4  Data  Lc  tasks.o [25]
+xYieldPending           0x2000'0e78    0x4  Data  Lc  tasks.o [25]
+xx3Freq                 0x2000'0f64    0x8  Data  Gb  TK_LIB.o [30]
+yy3Freq                 0x2000'0f6c    0x8  Data  Gb  TK_LIB.o [30]
+
+
+[1] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.ADC_1.0.1
+[2] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.COMP_1.0.1
+[3] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.CRC_1.0.1
+[4] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.CRS_1.0.1
+[5] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DAC_1.0.1
+[6] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DEBUG_1.0.1
+[7] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.DMA_1.0.1
+[8] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.EXTI_1.0.1
+[9] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.FLASH_1.0.1
+[10] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.GPIO_1.0.1
+[11] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.I2C_1.0.1
+[12] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.IWDG_1.0.1
+[13] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.MISC_1.0.1
+[14] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.OPA_1.0.1
+[15] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.PWR_1.0.1
+[16] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.RCC_1.0.1
+[17] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.RTC_1.0.1
+[18] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.SPI_1.0.1
+[19] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.SYSCFG_1.0.1
+[20] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.TIM_1.0.1
+[21] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.USART_1.0.1
+[22] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.FT32Driver.WWDG_1.0.1
+[23] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\CMSIS-Pack\FMD StdDriverOne _Device.Startup_1.0.1
+[24] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Driver
+[25] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS
+[26] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\FreeRTOS\portable
+[27] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Startup
+[28] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\Tasks
+[29] = D:\WorkSpace\FMD\1111\FreeRTOS_ForIAR\FreeRTOS_Proj\Debug\Obj\User
+[30] = TouchPro.a
+[31] = dl6M_tlf.a
+[32] = rt6M_tl.a
+[33] = shb_l.a
+
+  15'682 bytes of readonly  code memory
+     326 bytes of readonly  data memory
+   5'034 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
